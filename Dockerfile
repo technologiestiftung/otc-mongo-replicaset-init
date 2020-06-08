@@ -1,5 +1,5 @@
 # from here https://blog.lysender.com/2019/08/mongodb-replicaset-on-docker-environment/
-FROM mongo:4.2.6
+FROM mongo:4.2.7
 WORKDIR /init
 ARG MONGO_USER=root
 ARG MONGO_PW=example
